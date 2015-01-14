@@ -1,0 +1,15 @@
+{
+  "name": "howdoi-atom",
+  "main": "./lib/howdoi-atom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["howdoi-atom:convert"],
+  "repository": "https://github.com/atom/howdoi-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "figlet": "1.0.8"
+  }
+}

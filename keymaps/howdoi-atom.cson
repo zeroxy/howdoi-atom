@@ -9,3 +9,5 @@
 # https://atom.io/docs/latest/advanced/keymaps
 'atom-text-editor':
   'ctrl-alt-a': 'howdoi-atom:convert'
+  'ctrl-alt-b': 'howdoi-atom:stock'
+  'ctrl-alt-c': 'howdoi-atom:howdoi'

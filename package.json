@@ -3,13 +3,17 @@
   "main": "./lib/howdoi-atom",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "activationEvents": ["howdoi-atom:convert"],
+  "activationEvents": [ "howdoi-atom:convert",
+                        "howdoi-atom:stock",
+                        "howdoi-atom:howdoi"],
   "repository": "https://github.com/atom/howdoi-atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "figlet": "1.0.8"
+    "figlet": "1.0.8",
+    "request": "2.51.0",
+    "cheerio": "0.18.0"
   }
 }
